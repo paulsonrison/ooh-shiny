@@ -1,5 +1,9 @@
 # Validation record
 
+## 0.1.1 logo update
+
+Added the generated Ooh Shiny eye-and-sparkle logo to the shared skill, OpenAI plugin presentation metadata, skill-selector metadata, and README. Validation now checks icon paths and verifies the logo is included unchanged in both archives. The original 0.1.0 evaluation below describes behavior; this update changes branding only.
+
 Release: 0.1.0. Checked on 2026-10-26. These results distinguish package checks from behavioral and live-host evidence.
 
 ## Automated checks passed

@@ -1,5 +1,7 @@
 # ✨ Ooh Shiny
 
+<img src="skills/ooh-shiny/assets/logo.png" alt="Ooh Shiny: a curious eye with a bright sparkle" width="180" />
+
 **Give your AI an eye for design.**
 
 A portable UI/UX skill that helps AI coding agents research real references, spot interface problems, and build polished, responsive designs with purposeful motion. Works with your existing stack and preserves application behavior.

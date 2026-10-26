@@ -4,11 +4,12 @@ from zipfile import ZIP_DEFLATED, ZipFile
 import hashlib
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 SKILL_FILES = (
     "SKILL.md", "agents/openai.yaml", "references/design-sources.md",
     "references/design-principles.md", "references/motion-guidelines.md",
     "references/implementation-workflow.md",
+    "assets/logo.png",
 )
 
 

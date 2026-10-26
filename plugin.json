@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ooh-shiny",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Give your AI an eye for design: research, audit, refine interfaces, and add purposeful motion.",
   "author": {"name": "Paulson K R", "url": "https://github.com/paulsonrison"},
   "homepage": "https://github.com/paulsonrison/ooh-shiny#readme",
@@ -12,6 +12,9 @@
     "com.openai": {
       "interface": {
         "displayName": "Ooh Shiny",
+        "brandColor": "#D6FF45",
+        "composerIcon": "./skills/ooh-shiny/assets/logo.png",
+        "logo": "./skills/ooh-shiny/assets/logo.png",
         "shortDescription": "Give your AI an eye for design.",
         "longDescription": "Research design references, audit interfaces, suggest improvements, and implement responsive UI and accessible motion using your existing stack.",
         "developerName": "Paulson K R",

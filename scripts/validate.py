@@ -29,6 +29,10 @@ def validate():
     assert 25 <= len(ui["interface"]["short_description"]) <= 64
     assert "$ooh-shiny" in ui["interface"]["default_prompt"]
     assert ui["policy"]["allow_implicit_invocation"] is True
+    for key in ("icon_small", "icon_large"):
+        assert (skill / ui["interface"][key]).is_file()
+    for key in ("composerIcon", "logo"):
+        assert (ROOT / manifest["extensions"]["com.openai"]["interface"][key]).is_file()
     links = 0
     for document in ROOT.rglob("*.md"):
         if ".git" in document.parts or "dist" in document.parts:
@@ -54,6 +58,8 @@ def validate():
                     assert {n for n in names if n.startswith("skills/")} == expected_skill
                 entry = "ooh-shiny/SKILL.md" if "-skill-" in path.name else "skills/ooh-shiny/SKILL.md"
                 assert archive.read(entry) == (skill / "SKILL.md").read_bytes()
+                icon = ("ooh-shiny/" if "-skill-" in path.name else "skills/ooh-shiny/") + "assets/logo.png"
+                assert archive.read(icon) == (skill / "assets/logo.png").read_bytes()
                 for source in (skill / "references").glob("*.md"):
                     expected = ("ooh-shiny/references/" if "-skill-" in path.name else "skills/ooh-shiny/references/") + source.name
                     assert archive.read(expected) == source.read_bytes()

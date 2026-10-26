@@ -2,6 +2,6 @@
   "name": "ooh-shiny-marketplace",
   "owner": {"name": "Paulson K R"},
   "plugins": [
-    {"name": "ooh-shiny", "source": "./", "description": "Give your AI an eye for design.", "version": "0.1.0"}
+    {"name": "ooh-shiny", "source": "./", "description": "Give your AI an eye for design.", "version": "0.1.1"}
   ]
 }

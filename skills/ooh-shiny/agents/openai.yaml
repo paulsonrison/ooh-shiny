@@ -1,5 +1,8 @@
 interface:
   display_name: "Ooh Shiny"
+  icon_small: "./assets/logo.png"
+  icon_large: "./assets/logo.png"
+  brand_color: "#D6FF45"
   short_description: "Research UI ideas and build polished interfaces"
   default_prompt: "Use $ooh-shiny to audit this interface and suggest practical design improvements without modifying files."
 policy:
