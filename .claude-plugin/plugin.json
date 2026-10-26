@@ -1,0 +1,10 @@
+{
+  "name": "ooh-shiny",
+  "version": "0.1.0",
+  "description": "Give your AI an eye for design: research, audit, refine interfaces, and add purposeful motion.",
+  "author": {"name": "Paulson K R"},
+  "homepage": "https://github.com/paulsonrison/ooh-shiny",
+  "repository": "https://github.com/paulsonrison/ooh-shiny",
+  "license": "MIT",
+  "keywords": ["ui", "ux", "design", "frontend"]
+}

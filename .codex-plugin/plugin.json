@@ -1,0 +1,7 @@
+{
+  "name": "ooh-shiny",
+  "version": "0.1.0",
+  "description": "Research UI references, audit interfaces, and implement polished design and motion.",
+  "author": {"name": "Paulson K R"},
+  "skills": "./skills/"
+}

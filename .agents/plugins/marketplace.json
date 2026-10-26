@@ -1,0 +1,12 @@
+{
+  "name": "ooh-shiny-marketplace",
+  "interface": {"displayName": "Ooh Shiny"},
+  "plugins": [
+    {
+      "name": "ooh-shiny",
+      "source": {"source": "local", "path": "./"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ooh Shiny"
+  short_description: "Research UI ideas and build polished interfaces"
+  default_prompt: "Use $ooh-shiny to audit this interface and suggest practical design improvements without modifying files."
+policy:
+  allow_implicit_invocation: true
